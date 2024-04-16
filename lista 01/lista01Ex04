@@ -1,0 +1,8 @@
+ano = int(input('Informe o ano de nascimento: '))
+idade = 2024 - ano
+if idade >18:
+    print('Você já fez 18 anos')
+elif idade == 18:
+    print('Você fará 18 anos este ano')
+else:
+    print('Você ainda fará 18 anos')

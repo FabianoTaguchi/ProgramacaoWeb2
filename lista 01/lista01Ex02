@@ -1,0 +1,6 @@
+numero = int(input('Digite um numero: '))
+
+if 10 <= numero <= 99:
+    print('O número está no intervalo')
+else:
+    print('O valor não está no intervalo')

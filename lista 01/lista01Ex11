@@ -1,0 +1,22 @@
+numeros = [] 
+maior = 0
+menor = 0
+
+for i in range(10):    
+    numero = int(input('Digite um número inteiro: ')) 
+    numeros.append(numero) 
+    if numero > maior:
+        maior = numero
+
+menor = maior
+for i in range(10):
+    if(numeros[i])< menor:
+        menor = numeros[i]
+
+soma = sum(numeros) 
+media = soma / len(numeros) 
+print('Soma:', soma) 
+print('Média:', media)
+print('O maior número digitado foi: ', maior)
+print('O menor número digitado foi', menor)
+print(numeros[1])

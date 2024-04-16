@@ -1,0 +1,14 @@
+n1 = 101
+n2 = 101
+
+#Verifica se o n1 é maior que 100
+#Quando a condição for falsa, o laço é encerrado
+while n1 >100:
+    n1 = int(input('Informe o primeiro número: '))
+
+while n2 >100:
+    n2 = int(input('Informe o segundo número: '))
+
+soma = n1+n2
+print('A soma dos números é: ', soma)
+

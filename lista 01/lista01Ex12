@@ -1,0 +1,4 @@
+
+km = int(input('Informe um valor em KM para converter em M: ')) 
+converte = km * 1000
+print('O valor em metros é {:.2f},'.format(converte))

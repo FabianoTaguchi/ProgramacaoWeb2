@@ -1,0 +1,10 @@
+numero1 = float(input('Digite a primeira nota: '))
+numero2 = float(input('Digite a segunda nota: '))
+numero3 = float(input('Digite a terceira nota: '))
+
+media = (numero1 + numero2 + numero3)/3
+
+if media >=7:
+    print('A média foi: {:.2f}, está aprovado'.format(media))
+else:
+    print('A média foi: {:.2f}, está reprovado'.format(media))

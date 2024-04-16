@@ -1,0 +1,7 @@
+n1 = int(input('Informe um número: '))
+n2 = int(input('Informe um número: '))
+
+if n1 > n2:
+    print('O maior número digitado foi ', n1)
+else:
+    print('O maior número digitado foi ', n2)
